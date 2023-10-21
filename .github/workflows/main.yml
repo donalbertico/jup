@@ -19,7 +19,7 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         # Upload entire repository
-        path: './build/html'
+        path: './_build/html'
     # Install dependencies
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
